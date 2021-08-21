@@ -4,13 +4,18 @@
 <body class="is-preload">
    <!-- Wrapper -->
    <div id="wrapper">
-      {%- include header.html -%}
-      <main class="page-content" aria-label="Content">
-         <div id="main">
-            {{ content }}
+   {%- include header.html -%}
+   <main class="page-content" aria-label="Content">
+      <div id="main">
+         <section class="main">
+            <div class="spotlight">
+               <div class="content">
+                  {{ content }}
+               </div>
+         </section>
          </div>
-      </main>
-      {%- include footer.html -%}
+   </main>
+   {%- include footer.html -%}
    </div>
    <!-- Scripts -->
    <script src="assets/js/jquery.min.js"></script>
